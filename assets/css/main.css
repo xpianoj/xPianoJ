@@ -2957,6 +2957,12 @@ input, select, textarea {
 				text-align: center;
 			}
 
+			header.major > .goal {
+				font-size: 1rem;
+				font-weight: bold;
+				margin: 0 0 4rem 0;
+			}
+
 			header.major > .date {
 				font-size: 1rem;
 				margin: 0 0 4rem 0;
