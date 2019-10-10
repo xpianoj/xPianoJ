@@ -3026,6 +3026,10 @@ input, select, textarea {
 
 		}
 
+	header.major .goal:before, header.major .goal:after {
+		border-top-color: #eeeeee;
+	}
+
 	header.major .date:before, header.major .date:after {
 		border-top-color: #eeeeee;
 	}
@@ -3812,6 +3816,10 @@ input, select, textarea {
 			padding: 8rem 8rem 6rem 8rem ;
 		}
 
+			#main > .post header.major > .goal {
+				margin-top: -2rem;
+			}
+
 			#main > .post header.major > .date {
 				margin-top: -2rem;
 			}
@@ -3840,6 +3848,11 @@ input, select, textarea {
 					padding: 4rem 2rem 2rem 2rem ;
 				}
 
+					#main > .post header.major > .goal {
+						margin-top: -1rem;
+						margin-bottom: 2rem;
+					}
+				
 					#main > .post header.major > .date {
 						margin-top: -1rem;
 						margin-bottom: 2rem;
@@ -4158,6 +4171,10 @@ input, select, textarea {
 
 		#footer ul.icons.alt li a.icon:hover:before {
 			box-shadow: inset 0 0 0 2px #18bfef;
+		}
+
+		#footer header.major .goal:before, #footer header.major .goal:after {
+			border-top-color: #e2e2e2;
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
